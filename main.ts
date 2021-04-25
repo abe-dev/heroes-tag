@@ -17,4 +17,9 @@ let mySprite = sprites.create(img`
     . . f f . . . f f f . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-music.playMelody("C5 E A - E B G - ", 392)
+for (let index = 0; index < 10; index++) {
+    music.playMelody("C5 E A C5 E B G B ", 392)
+}
+for (let index = 0; index < 12; index++) {
+    music.playMelody("C5 B G F E A G B ", 233)
+}
