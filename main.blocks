@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="I+(Ij$c8)QnVD7LPku{3">mySprite</variable><variable id="IcsDIguAHKQ,A$:~KHbX">mySprite2</variable><variable type="KIND_SpriteKind" id="q%^iK7rQ4dIsD]zk=@Up">Player</variable><variable type="KIND_SpriteKind" id="LUXK,/m7`OqNwlFPC)NI">Projectile</variable><variable type="KIND_SpriteKind" id="ImVsAtLUTH;q8Y~!yMr7">Food</variable><variable type="KIND_SpriteKind" id="cYn$*^rE9Icsix7i{z_=">Enemy</variable></variables><block type="pxt-on-start" id="oGdmiF1|V_~8Gja%T.)s" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="~Bq6oZM+5+~z2ePL!OBe"><field name="VAR" id="I+(Ij$c8)QnVD7LPku{3">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="+Ks6_SMlB5~Pf{,7YWv-"><value name="img"><shadow type="screen_image_picker" id="v}en#}5dP`cj91RW)W$e"><field name="img">img`
+. . . . . . . . . . . . . 
+. . . f f f f f f . . . . 
+. f f f f f f f f f . . . 
+. f f f f f f c f f f . . 
+f f f f c f f f c f f f . 
+f c f f c c f f f c c f f 
+f c c f f f f e f f f f f 
+f f f f f f f e e f f f . 
+f f e e f 1 f e e f f f . 
+f f e f f f f 4 4 f f . . 
+. f f f 9 9 f 9 9 9 . . . 
+. 4 9 f f f f e f f . . . 
+. e 9 f e 7 7 7 7 f . . . 
+. f e e f 6 6 6 6 f f . . 
+. f f f f f f f f f f . . 
+. . f f . . . f f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"v}en#}5dP`cj91RW)W$e"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="6_b;aEm:?D-fu[N{D5-u"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="*B-iZYxDiakypVRQifw^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="~[v9r4TF^/m(XoL5Q)7q"><field name="VAR" id="I+(Ij$c8)QnVD7LPku{3">mySprite</field></block></value><next><block type="playMelody" id=".6G^?MtLZQ+W:R=f/c5s"><value name="melody"><shadow type="melody_editor" id="=@WO{vzf($H7*0gJynGm"><field name="melody">"C5 E A - E B G - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="{FH|Qm1dozU6fVmHa[nr"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">392</field></shadow></value></block></next></block></next></block></statement></block></xml>
